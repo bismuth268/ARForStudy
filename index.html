@@ -11,7 +11,9 @@
   <p>ARテスト</p>
   <a href="originalTag.html">イメージトラッキング</a>
   <a href="threejs.html">3Dモデルの表示</a>
-  <canvas class="ARScreen"> <a-scene
+  <div class="ARScreen"> 
+    <a-scene
+      width="500" height="300"
       mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.5/examples/image-tracking/assets/card-example/card.mind;"
       color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false"
       device-orientation-permission-ui="enabled: false">
@@ -29,7 +31,7 @@
           animation="property: position; to: 0 0.1 0.1; dur: 1000; easing: easeInOutQuad; loop: true; dir: alternate">
       </a-entity>
     </a-scene>
-  </canvas>
+  </div>
 
 </body>
 
